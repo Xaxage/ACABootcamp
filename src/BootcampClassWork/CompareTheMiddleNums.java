@@ -1,9 +1,10 @@
 package BootcampClassWork;
+
 import java.util.Scanner;
 
 public class CompareTheMiddleNums {
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Please enter the first number");
         String firstStr = sc.nextLine();
