@@ -6,6 +6,7 @@ public class Eleventh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("How many numbers you are going to input.");
+        System.out.println("S");
 
         int numbers = sc.nextInt();
         int negCount = 0;
