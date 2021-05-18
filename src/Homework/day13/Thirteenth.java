@@ -13,7 +13,9 @@ public class Thirteenth {
             for (int j = 0; j < chars.length; j++) {
                 if (chars[i] == chars[j]) counter++;
             }
-            if (counter == 1) return chars[i];
+            if (counter == 1) {
+                return chars[i];
+            }
             counter = 0;
         }
         return '-';
