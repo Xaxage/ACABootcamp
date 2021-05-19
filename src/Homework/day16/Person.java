@@ -80,6 +80,7 @@ public class Person {
 
     }
 
+
     public Person(String firstName, String name, String id, int age, String nationality, String sex) {
         this.firstName = firstName;
         this.lastName = name;

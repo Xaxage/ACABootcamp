@@ -1,5 +1,7 @@
 package Homework.day16;
 
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         Person p = new Person("Erik", "Hovhannisyan", "AN123456s78", 219, "Allah", "Femalwe");
@@ -9,5 +11,7 @@ public class Main {
         //System.out.println(tr.check(tr));
         System.out.println(tr.Naxaverjin(tr));
 
+        //before a=2+3;
+        //after int a = 2 + 3;
     }
 }
